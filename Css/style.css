@@ -1,0 +1,254 @@
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Kanit:wght@500&family=Manrope&family=Playpen+Sans:wght@300&family=Sometype+Mono:wght@500&display=swap');
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(Imagenes/DSC_0202.JPG);
+		background-repeat: no-repeat;
+	 background-attachment: fixed;
+  background-size: cover;
+
+}
+
+header {
+	background-image: url(Imagenes/DSC_0202.JPG);;
+	background-repeat: no-repeat;
+	 background-attachment: fixed;
+  background-size: cover;
+}
+
+
+header div {
+	background: hsla(0, 0%, 0%, 0.5);
+}
+
+
+header div img{
+	float: left;
+	margin-top: 0.5em;
+	margin-left: 3.5em;
+	max-width: 5em;
+	max-height: 4em;
+	border-radius: 0.5em;
+	position: relative;
+}
+h1{
+	margin-left: 1em;
+	font-size: 1em;
+	font-family:Manrope ;
+	display: inline-block;
+	color: white;
+	background: hsla(0, 0%, 0%, 0.5);
+}
+
+header ul {
+  font-size: 1em;
+  display: flex;
+  justify-content: flex-end;
+  gap: 3em;
+
+}
+
+header ul li{
+	background: hsla(0, 0%, 0%, 0.5);
+	border-radius: 4px;
+	font-family:"Manrope";
+  margin-top: 1.5em;
+  margin-right: 1em;
+	margin-bottom: 1.5em;
+  display: inline-block;
+  padding: 0.2em;
+}
+
+header li a{
+	text-decoration: none;
+	color: white;
+	text-decoration: underline 2px hsla(0, 0%, 0%, 0.5);
+	transition: text-decoration 0.3s ease-in;
+}
+
+header li a:hover{
+	text-decoration: underline 2px white ;
+	
+}
+
+#conte{
+	background: hsla(0, 0%, 100%, 0.2);
+	margin-top: 1em;
+	margin-left: 7em;
+	margin-right: 7em;
+	border-radius: 2em;
+	
+}
+
+section{
+	height: 100vh;
+}
+
+h2{
+	font-family:Manrope ;
+	font-size: 4em;
+}
+
+
+#inicio{
+	display: flex;
+	flex-direction: row wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.title{
+	background: hsla(0, 0%, 0%, 0.5);
+	font-size: 2em;
+	font-family:"Manrope";
+	color: #f6f6f6;
+	text-align: center;
+}
+
+
+button {
+	margin-top: 3em;
+	margin-left: 3.7em;
+	text-align: right;
+	position: fixed;
+}
+
+button a{
+	text-decoration: none;
+}
+
+ .der {
+ 	float: right;
+ 	max-height: 30vh;
+ 	max-width: 40vw;
+   margin:  1em;
+  
+  }
+
+   .izq {
+ 	float: left;
+ 	max-height:40vh;
+ 	max-width: 50vw;
+   margin:  1em;
+  
+  }
+	
+#con img{
+	max-width: 4vw;
+	max-height: 4vh;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	text-align: right;
+	border-radius: 6em;
+}
+#cam{
+	height: 80vh;
+}
+
+
+p{
+	font-family: Sometype+Mono;
+	font-size: 2em;
+	color: black;
+	margin-top: 1em;
+	margin-left: 1em;
+	margin-right: 2em;
+}
+#con{
+	background: hsla(0, 0%, 100%, 0.8);
+	margin-top: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+	border-radius: 2em;
+	height: 63vh;
+}
+
+
+
+#con botton img{
+	border-radius: 6em;
+	max-width: 2rem;
+	max-height: 2rem;
+	margin:1em;
+  margin:2em;
+	position: absolute;
+	display: flex;
+	justify-content: flex-start;
+}
+h6{
+	font-size: 2em;
+	font-family:"Manrope";
+	color: black;
+	text-align: center;
+
+}
+
+#contacto{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.ig a{
+	font-family:Manrope ;
+	margin-left:3em;
+	color: black;
+	text-decoration: underline 2px  hsla(0, 0%, 100%, 0);
+	transition: text-decoration 0.3s ease-in;
+}
+
+.ig a:hover{
+	text-decoration: underline 2px black;
+}
+
+#contacto a{
+	font-family:Manrope ;
+	font-size: 1em;
+	text-decoration: none;
+	color: black;
+	text-align: left;
+	margin-right: 1em;
+}
+
+#mapa{
+	text-align: right;
+	float: right;
+	margin-right: 1em;
+	margin-top: 1em;
+}
+
+h5{
+	background: hsla(0, 0%, 0%, 0.5);
+  font-size: 2em;
+	font-family:"Manrope";
+	color: #f6f6f6;
+	text-align: center;
+}
+
+#ser ul{
+	font-size: 1em;
+  display: flex;
+  justify-content: flex-end;
+  gap: 3em;
+  color: white;
+}
+
+#ser ul li{
+	background: hsla(0, 0%, 0%, 0.5);
+	border-radius: 4px;
+	font-family:"Manrope";
+  margin-top: 1.5em;
+  margin-right: 1em;
+	margin-bottom: 1.5em;
+  display: inline-block;
+  padding: 0.2em;
+}
+

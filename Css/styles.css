@@ -104,16 +104,6 @@ h2{
 	position: absolute;
 }
 
-/*.centro{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 80vw;
-	height: 70vh;
-	border-radius: 1em;
-}*/
-
-
 
 
 #inicio{
@@ -307,8 +297,6 @@ h5{
 	75% {margin-left: -300%;}
 	100% {margin-left: -300%;}
 }
-
-
 
 #344E41
 #3A5A40  131, 22%, 29%

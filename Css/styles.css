@@ -247,17 +247,20 @@ h5{
   justify-content: flex-end;
   gap: 3em;
   color: white;
+
 }
 
 #ser ul li{
 	background: hsla(0, 0%, 0%, 0.5);
 	border-radius: 4px;
 	font-family:"Manrope";
+	margin-left: 1em;
   margin-top: 1.5em;
   margin-right: 1em;
 	margin-bottom: 1.5em;
   display: inline-block;
   padding: 0.2em;
+
 }
 
 .slider-frame {
